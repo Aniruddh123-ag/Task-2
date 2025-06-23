@@ -1,14 +1,21 @@
 # Task-2
 Automated Report Generation
+<br>
 import pandas as pd
+<br> 
 from fpdf import FPDF
+<br>
 
 def generate_report(input_file, output_pdf):
     """
+    <br>
     Reads data from an input file, analyzes it (simple example),
+    <br>
     and generates a formatted PDF report.
     """
+    <br>
     try:
+    <br>
  # 1. Read data from a file (e.g., CSV)
         df = pd.read_csv(input_file)
  # 2. Analyze data (simple example: calculate mean of a numeric column)

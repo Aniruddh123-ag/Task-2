@@ -1,5 +1,5 @@
 # Task-2
-Automated Report Generation
+AUTOMATED REPORT GENERATION
 <br>
 import pandas as pd
 <br> 
@@ -7,11 +7,9 @@ from fpdf import FPDF
 <br>
 
 def generate_report(input_file, output_pdf):
-    """
-    <br>
-    Reads data from an input file, analyzes it (simple example),
-    <br>
-    and generates a formatted PDF report.
+<br>
+    """ Reads data from an input file, analyzes it (simple example),
+  and generates a formatted PDF report.
     """
     <br>
     try:
